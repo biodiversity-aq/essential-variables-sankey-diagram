@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Essential Variables – Sankey Diagram</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+
+    p.description {
+      font-size: 14px;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+    }
+
+    svg {
+      display: block;
+      margin: 0 auto;
+      background: #fff;
+    }
+
+    .node rect {
+      fill-opacity: 0.8;
+      shape-rendering: crispEdges;
+    }
+
+    .node text {
+      font-size: 11px;
+      pointer-events: none;
+    }
+
+    .link {
+      stroke: #aaa;
+      stroke-opacity: 0.4;
+      fill: none;
+    }
+
+    .link.highlight {
+      stroke: orange;
+      stroke-opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Relationship between Essential Variables</h1>
+<p class="description">
+  This Sankey diagram shows the hierarchical relationships between the Essential Variables.
+  Hover over any node to see the links.
+</p>
+
+<svg width="1200" height="1500"></svg>
+
+<script>
+  const svg = d3.select("svg");
+  const width = +svg.attr("width");
+  const height = +svg.attr("height");
+
+  const sankey = d3.sankey()
+          .nodeWidth(10)
+          .nodePadding(3)
+          .extent([[1, 1], [width - 1, height - 6]]);
+
+  function getUpstreamLinks(node, allLinks, collected = new Set()) {
+    allLinks.forEach(link => {
+      if (link.target === node && !collected.has(link)) {
+        collected.add(link);
+        getUpstreamLinks(link.source, allLinks, collected);
+      }
+    });
+    return collected;
+  }
+
+  function getDownstreamLinks(node, allLinks, collected = new Set()) {
+    allLinks.forEach(link => {
+      if (link.source === node && !collected.has(link)) {
+        collected.add(link);
+        getDownstreamLinks(link.target, allLinks, collected);
+      }
+    });
+    return collected;
+  }
+
+  d3.json("data/ev.json").then(data => {
+    const nodesMap = new Map();
+    data.forEach(d => {
+      if (d.from) nodesMap.set(d.from, { name: d.from });
+      if (d.to) nodesMap.set(d.to, { name: d.to });
+    });
+
+    const nodes = Array.from(nodesMap.values());
+    const nameToIndex = new Map(nodes.map((d, i) => [d.name, i]));
+
+    const links = data.map(d => ({
+      source: nameToIndex.get(d.from),
+      target: nameToIndex.get(d.to),
+      value: 1
+    }));
+
+    const sankeyData = sankey({
+      nodes: nodes.map(d => Object.assign({}, d)),
+      links: links.map(d => Object.assign({}, d))
+    });
+
+    svg.append("g")
+            .attr("fill", "none")
+            .selectAll("path")
+            .data(sankeyData.links)
+            .join("path")
+            .attr("class", "link")
+            .attr("stroke", "#aaa")
+            .attr("stroke-width", d => Math.max(1, d.width))
+            .attr("d", d3.sankeyLinkHorizontal())
+            .append("title")
+            .text(d => `${d.source.name} → ${d.target.name}\n${d.value}`);
+
+    const node = svg.append("g")
+            .selectAll("g")
+            .data(sankeyData.nodes)
+            .join("g")
+            .attr("class", "node")
+            .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+    node.append("rect")
+            .attr("height", d => d.y1 - d.y0)
+            .attr("width", d => d.x1 - d.x0)
+            .attr("fill", d => d3.schemeCategory10[nameToIndex.get(d.name) % 10])
+            .append("title")
+            .text(d => `${d.name}\n${d.value}`);
+
+    node.append("text")
+          .attr("x", d => d.x0 < width / 2 ? 6 : -6)
+          .attr("y", d => (d.y1 - d.y0) / 2)
+          .attr("dy", "0.35em")
+          .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
+          .text(d => d.name);
+
+
+
+    node.on("mouseover", function(event, d) {
+      const upstream = getUpstreamLinks(d, sankeyData.links);
+      const downstream = getDownstreamLinks(d, sankeyData.links);
+      const allLinks = new Set([...upstream, ...downstream]);
+
+      svg.selectAll(".link").classed("highlight", l => allLinks.has(l));
+    }).on("mouseout", function() {
+      svg.selectAll(".link").classed("highlight", false);
+    });
+  });
+</script>
+</body>
+</html>

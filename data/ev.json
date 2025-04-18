@@ -1,0 +1,926 @@
+[
+  {
+    "from":"Essential Climate Variables",
+    "to":"Atmosphere",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Essential Climate Variables",
+    "to":"Land",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Essential Climate Variables",
+    "to":"Ocean",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmosphere",
+    "to":"Surface",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmosphere",
+    "to":"Upper atmosphere",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmosphere",
+    "to":"Atmospheric composition",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Land",
+    "to":"Hydrology",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Land",
+    "to":"Cryosphere",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Land",
+    "to":"Biology",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Land",
+    "to":"Human use of natural resources",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Ocean",
+    "to":"Physical",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Ocean",
+    "to":"Biogeochemical",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Ocean",
+    "to":"Biology\/Ecosystems",
+    "verbatimTo":"Biological\/Ecosystems",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Precipitation",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Surface pressure",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Surface radiation budget",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Surface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Surface water vapour",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Surface wind speed and direction",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Surface",
+    "to":"Upper-air temperature",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Upper atmosphere",
+    "to":"Earth radiation budget",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Upper atmosphere",
+    "to":"Lightning",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Upper atmosphere",
+    "to":"Upper-air water vapour",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Upper atmosphere",
+    "to":"Upper-air wind speed and direction",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmospheric composition",
+    "to":"Clouds",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmospheric composition",
+    "to":"Aerosols",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmospheric composition",
+    "to":"Carbon dioxide, methane & other greenhouse gases",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmospheric composition",
+    "to":"Ozone",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Atmospheric composition",
+    "to":"Precursors for aerosols and ozone",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"Groundwater",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"Lakes",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"River discharge",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"Terrestrial water storage (TWS)",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"Evaporation from land",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Hydrology",
+    "to":"Soil moisture",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Cryosphere",
+    "to":"Glaciers",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Cryosphere",
+    "to":"Ice sheets and ice shelves",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Cryosphere",
+    "to":"Permafrost",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Cryosphere",
+    "to":"Snow",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Above-ground biomass",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Albedo",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Fire",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Fraction of absorbed photosynthetically active radiation (FAPAR)",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Land cover",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Land surface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Leaf area index",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology",
+    "to":"Soil carbon",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Human use of natural resources",
+    "to":"Anthropogenic greenhouse gas emissions",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Human use of natural resources",
+    "to":"Athropogenic water use",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Ocean surface heat flux",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Sea ice",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Sea level",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Sea state",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Surface currents",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Sea surface salinity",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Surface stress",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Sea surface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Subsurface currents",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Subsurface salinity",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Physical",
+    "to":"Subsurface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Inorganic carbon",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Nitrous oxide",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Nutrients",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Ocean colour",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Oxygen",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biogeochemical",
+    "to":"Transient tracers",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Marine habitats",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Plankton",
+    "verbatimTo":"",
+    "essentialVariable":"ECV"
+  },
+  {
+    "from":"Essential Ocean Variables",
+    "to":"Physics",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Essential Ocean Variables",
+    "to":"Biochemistry",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Essential Ocean Variables",
+    "to":"Biology\/Ecosystems",
+    "verbatimTo":"Biology and Ecosystems",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Sea state",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Ocean surface stress",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Sea ice",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Sea surface height",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Sea surface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Subsurface temperature",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Surface currents",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Subsurface currents",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Sea surface salinity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Subsurface salinity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Ocean surface heat flux",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Ocean bottom pressure",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Physics",
+    "to":"Turbulent diapycnal fluxes (*pilot)",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Oxygen",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Nutrients",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Inorganic carbon",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Transient tracers",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Particulate matter",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Nitrous oxide",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Stable carbon isotopes",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Dissolved organic carbon",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Phytoplankton biomass and diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Zooplankton biomass and diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Fish abundance and distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Sea turtles abundance and distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Seabirds abundance and distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Marine mammal abundance and distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Hard coral cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Seagrass cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Macroalgal canopy cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Mangrove cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Microbe biomass and diversity (*pilot)",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Benthic invertebrate abundance and distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Marine habitats",
+    "to":"Hard coral cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Marine habitats",
+    "to":"Seagrass cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Marine habitats",
+    "to":"Macroalgal canopy cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Marine habitats",
+    "to":"Mangrove cover and composition",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Plankton",
+    "to":"Phytoplankton biomass and diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Plankton",
+    "to":"Zooplankton biomass and diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Ocean colour",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biochemistry",
+    "to":"Marine debris (*pilot)",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Biology\/Ecosystems",
+    "to":"Ocean sound",
+    "verbatimTo":"",
+    "essentialVariable":"EOV"
+  },
+  {
+    "from":"Essential Biodiversity Variables",
+    "to":"Species-focused",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Essential Biodiversity Variables",
+    "to":"Ecosystem-focused",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species-focused",
+    "to":"Genetic composition",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species-focused",
+    "to":"Species populations",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species-focused",
+    "to":"Species traits",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem-focused",
+    "to":"Community composition",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem-focused",
+    "to":"Ecosystem functioning",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem-focused",
+    "to":"Ecosystem structure",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Genetic composition",
+    "to":"Genetic diversity",
+    "verbatimTo":"Genetic diversity (richness and heterozygosity)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Genetic composition",
+    "to":"Genetic differentiation",
+    "verbatimTo":"Genetic differentiation (number of genetic units and genetic distance)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Genetic composition",
+    "to":"Effective population size",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Genetic composition",
+    "to":"Inbreeding",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species populations",
+    "to":"Species distributions",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species populations",
+    "to":"Species abundances",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species traits",
+    "to":"Morphology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species traits",
+    "to":"Physiology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species traits",
+    "to":"Phenology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species traits",
+    "to":"Movement",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Species traits",
+    "to":"Reproduction",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Community composition",
+    "to":"Community abundance",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Community composition",
+    "to":"Taxonomic\/phylogenetic diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Community composition",
+    "to":"Trait diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Community composition",
+    "to":"Interaction diversity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem functioning",
+    "to":"Primary productivity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem functioning",
+    "to":"Ecosystem phenology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem functioning",
+    "to":"Ecosystem disturbances",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem structure",
+    "to":"Live cover fraction",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem structure",
+    "to":"Ecosystem distribution",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Ecosystem structure",
+    "to":"Ecosystem Vertical Profile",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Primary productivity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Ecosystem phenology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Genetic differentiation",
+    "verbatimTo":"Genetic differentiation (number of genetic units and genetic distance)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Genetic diversity",
+    "verbatimTo":"Genetic diversity (richness and heterozygosity)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Species distributions",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Phytoplankton biomass and diversity",
+    "to":"Species abundances",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Primary productivity",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Ecosystem phenology",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Genetic differentiation",
+    "verbatimTo":"Genetic differentiation (number of genetic units and genetic distance)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Genetic diversity",
+    "verbatimTo":"Genetic diversity (richness and heterozygosity)",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Species distributions",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  },
+  {
+    "from":"Zooplankton biomass and diversity",
+    "to":"Species abundances",
+    "verbatimTo":"",
+    "essentialVariable":"EBV"
+  }
+]
