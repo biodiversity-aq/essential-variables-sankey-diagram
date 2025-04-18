@@ -17,7 +17,6 @@ This Sankey diagram shows the **hierarchical and thematic relationships** betwee
 
 The relationships are defined in a simple JSON file (`data/ev.json`) which you can edit to modify the diagram.
 
----
 
 ## 📁 Project Structure
 
